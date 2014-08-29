@@ -6,6 +6,9 @@
 
 package repo;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 /**
  *
  * @author nitin
@@ -18,6 +21,8 @@ public class REPO {
     public static void main(String[] args) {
         // TODO code application logic here
         //bfxcjcxh
+        GregorianCalendar gregorianCalendar=new  GregorianCalendar();
+        System.out.println(gregorianCalendar.get(Calendar.DAY_OF_WEEK));
                 
     }
     
